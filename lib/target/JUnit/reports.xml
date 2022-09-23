@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="170.573">
+    <testcase classname="Testing Robot class functionality." name="MyAccount Page" time="45.263">
+        <system-out><![CDATA[When User clicks on Signin btn..............................................passed
+And User gives his login credentials........................................passed
+And Clicks on login btn.....................................................passed
+Then Goes to my profile and edit the details................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Robot class functionality." name="Handling Alerts" time="22.26">
+        <system-out><![CDATA[When User clicks on Alert...................................................passed
+Then Handles Alerts using various methods...................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Robot class functionality." name="Handling multiple windows" time="15.869">
+        <system-out><![CDATA[Given User is on login page.................................................passed
+When User clicks on Terms and Conditions....................................passed
+And Get the title of both the windows and IDs...............................passed
+Then Goes back to parent window.............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Robot class functionality." name="Uploading file using sendKeys &amp; Robot class" time="25.353">
+        <system-out><![CDATA[Given User is on Homepage of Monster.com....................................passed
+When User clicks on upload resume popup opens...............................passed
+Then User uploads his/her resume............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Robot class functionality." name="Using DragandDrop Functionality" time="19.285">
+        <system-out><![CDATA[Given User is on Guru99 Homepage............................................passed
+When User clicks on Selenium dropdown and selects the drag and drop tab.....passed
+And User Drags and Drops the various tiles..................................passed
+Then User's Drag and drop functionality is completed........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Robot class functionality." name="Using Cookie handling functionality." time="19.624">
+        <system-out><![CDATA[Given User is on homepage of filpkart.......................................passed
+When User captures all the cookies..........................................passed
+And User add and then delete the cookies....................................passed
+Then User prints the remaining cookies......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Testing Robot class functionality." name="Radiobutton Functionality" time="20.255">
+        <system-out><![CDATA[Given User is on Guru99 website.............................................passed
+When User clicks on Selenium Dropdown.......................................passed
+And selects the Radio button option.........................................passed
+And User clicks on any radio button.........................................passed
+Then The Radio_button is Selected...........................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
